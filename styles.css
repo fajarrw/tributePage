@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+
+/* body {
+    background-color: black;
+    color: white;
+} */
+
+* {
+    font-family: 'Sanchez', serif;
+    margin: 0;
+}
+
+h3 {
+    margin: 20px 20px 8px 20px;
+}
+
+p{
+    margin: 8px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1em;
+}
+
+a {
+    color: #739AFF;
+    font-size: 1em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    margin: 0 0 20px 0;
+    background-color: black;
+    color: white;
+    font-family: 'Sanchez', serif;
+    margin: 0;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#image {
+    /* min-width: 100px; */
+    max-width: 800px;
+/*     height: 50vh; */
+/*     object-fit: cover; */
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+   -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);
+}
+
+#title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#img-caption {
+    margin: 2px;
+    color: grey;
+}
+
+#quote {
+    margin-bottom: 20px;
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 2em auto;
+    /* margin-bottom: 10px; */
+}
+
+#list p {
+    margin: 2px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* @media (max-width: 1100px) {
+  img {
+/*     height: 70vh; */
+    /* width: 400px;
+  }
+} */
